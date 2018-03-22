@@ -5,5 +5,7 @@ RUN echo 'gem: --no-document' >> /etc/gemrc
 
 RUN gem install gemfury
 
+WORKDIR /workdir
+
 ENTRYPOINT ["fury"]
 CMD ["--help"]
