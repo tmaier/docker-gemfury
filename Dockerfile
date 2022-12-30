@@ -1,4 +1,4 @@
-FROM ruby:2.6-alpine
+FROM ruby:3.0-alpine
 LABEL maintainer="Tobias L. Maier <tobias.maier@baucloud.com>"
 
 RUN echo 'gem: --no-document' >> /etc/gemrc
